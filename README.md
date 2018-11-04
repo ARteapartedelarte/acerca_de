@@ -19,6 +19,7 @@ Acerca del Proyecto e información útil
 
 * Al equipo de BlocksCAD
 * A la Universidad de Zaragoza
+* A Carlos Lapuerta, por imprimir con su impresora las piezas en 3d para el taller de talento matemático.
 
 ## Licencia
 
