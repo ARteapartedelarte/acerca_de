@@ -12023,6 +12023,62 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&quot;Estrella-mud&#233;jar&quot;-sobre-un-hex&#225;gono-regular">"Estrella mud&#233;jar" sobre un hex&#225;gono regular<a class="anchor-link" href="#&quot;Estrella-mud&#233;jar&quot;-sobre-un-hex&#225;gono-regular">&#182;</a></h2><h4 id="Modelo">Modelo<a class="anchor-link" href="#Modelo">&#182;</a></h4><p>Ahora se propone realizar una especie de estrella mudejar modificada a partir de un hexágono regular de radio y altura que quieras</p>
+<p><img src="./img/est_hex.png" width="60%"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&quot;Estrella-mud&#233;jar&quot;-sobre-un-hex&#225;gono-regular">"Estrella mud&#233;jar" sobre un hex&#225;gono regular<a class="anchor-link" href="#&quot;Estrella-mud&#233;jar&quot;-sobre-un-hex&#225;gono-regular">&#182;</a></h2><h4 id="Cuestiones-previas">Cuestiones previas<a class="anchor-link" href="#Cuestiones-previas">&#182;</a></h4><ul>
+<li>¿Hacía qué objeto tiende un polígono regular cuando aumentamos el número de lados al polígono?</li>
+<li>¿Cuánto tiene que girar el prisma hexágonal superpuesto para generar las puntas en mitad de las aristas del prisma original?¿Puedes dar una fórmula general que vaya en función del número de lados y que por tanto sirva para el cuadrado o el hexaǵono?</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&quot;Estrella-mud&#233;jar&quot;-sobre-un-hex&#225;gono-regular">"Estrella mud&#233;jar" sobre un hex&#225;gono regular<a class="anchor-link" href="#&quot;Estrella-mud&#233;jar&quot;-sobre-un-hex&#225;gono-regular">&#182;</a></h2><h4 id="Consideraciones-a-las-cuestiones">Consideraciones a las cuestiones<a class="anchor-link" href="#Consideraciones-a-las-cuestiones">&#182;</a></h4><ul>
+<li>Al aumentar el número de lados, el polígono se va acercando a un círculo como se puede ver en la siguiente animación:</li>
+</ul>
+<p><img src="./img/lim_circulo.gif" width="60%"></p>
+<ul>
+<li><p>BlocksCAD interpreta los cilindros de esta manera, como un prisma de base regular con un número de lados elevado.</p>
+</li>
+<li><p>Podemos generar un prisma de base regular modificando el número de lados asociado a un cilindro con el bloque <img src="./img/bloque_aristas.png" width="10%">:
+<img src="./img/cilindro_nlados.png" width="100%"></p>
+</li>
+<li><p>La rotación que hay que hacer es la mitad del ángulo central: $$\frac{180}{nlados}$$</p>
+</li>
+<li><p><strong>Importante:</strong> Al usar el bloque cilindro modificado por el número de aristas, el parámetro que le damos es el radio del polígono regular y no la longitud de la arista (o lado del polígono regular)</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&quot;Estrella-mud&#233;jar&quot;-sobre-un-hex&#225;gono-regular">"Estrella mud&#233;jar" sobre un hex&#225;gono regular<a class="anchor-link" href="#&quot;Estrella-mud&#233;jar&quot;-sobre-un-hex&#225;gono-regular">&#182;</a></h2><h4 id="Modelado-en-BlocksCAD">Modelado en BlocksCAD<a class="anchor-link" href="#Modelado-en-BlocksCAD">&#182;</a></h4><ul>
+<li>Se propone como ejercicio su modelado. Al final de la documentación de la wiki tienes un enlace a una posible solución.</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Ruegos-y-preguntas">Ruegos y preguntas<a class="anchor-link" href="#Ruegos-y-preguntas">&#182;</a></h2>
 </div>
 </div>
