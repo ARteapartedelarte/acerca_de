@@ -12,7 +12,7 @@ Acerca del Proyecto e información útil
 
 ## Talleres
 
-* **TTM 18 -19**: Taller de talento matemático. (presentación del taller)[https://mat3d.github.io/acerca_de/ttm1819.slides.html#/3]
+* **TTM 18 -19**: Taller de talento matemático. (presentación del taller)[https://mat3d.github.io/acerca_de/ttm1819.slides.html#]
 
 
 ## Agradecimientos
