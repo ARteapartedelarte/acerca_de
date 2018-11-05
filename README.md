@@ -29,7 +29,6 @@ Todo la documentación es libre y se encuentra en este [repositorio de Github](h
 
 ## Colabora
 
-El equipo de [mat3d.github.io](https://mat3d.github.io/) estaría encantado de que te unieras al proyecto en caso de que quisieras añadir nuevas actividades relacionadas con las Matemáticas mediante el uso de BlocksCAD. Ponte en contacto con alguno de los miembros del equipo (en la web tienes enlaces para ello). 
-
+El equipo de [mat3d.github.io](https://mat3d.github.io/) estaría encantado de que te unieras al proyecto en caso de que quisieras añadir nuevas actividades relacionadas con las Matemáticas con BlocksCAD. Ponte en contacto con alguno de los miembros del equipo (en la web tienes enlaces para ello). 
 
 
