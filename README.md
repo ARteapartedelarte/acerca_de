@@ -17,8 +17,8 @@ Acerca del Proyecto e información útil
 
 ## Agradecimientos
 
-* Al equipo de BlocksCAD
-* A la Universidad de Zaragoza
+* Al equipo de [BlocksCAD](https://www.blockscad3d.com)
+* A la Universidad de Zaragoza, y en particular al [Taller de Talento Matemático](http://ttm.unizar.es)
 * A Carlos Lapuerta, por imprimir con su impresora las piezas en 3d para el taller de talento matemático.
 
 ## Licencia
