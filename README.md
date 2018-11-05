@@ -1,8 +1,29 @@
 # Sobre nosotros y el proyecto
 
-Acerca del Proyecto e información útil
+El proyecto surge como un intento de explorar las posibilidades que el modelado en 3d pueda tener en el desarrollo de conocimientos matemáticos. Si bien desde un punto de vista tecnológico, el modelado en 3d se centra en el uso de la herramienta para el diseño de objetos, nuestro objetivo es experimentar contenidos matemáticos a través del modelado en 3d.
 
-(En construcción)
+La herramienta de modelado que se está utilizando es BlocksCAD, que no es más que una implementación de OpensCAD utilizando bloques tipo Lego. Esto lo hace ideal para iniciarse en el modelado 3d.
+
+Algunas de las posibilidades detectadas desde el punto de vista matemático:
+
+* Desarrollo del pensamiento computacional y pensamiento algorítmico
+* Desarrollo de la visión espacial
+* Trabajo en coordenadas polares además de cartesianas
+* Abstracción de dimensiones para la comprensión de espacios n-dimensionales
+* Operaciones lógicas asociadas a conjuntos
+* Manejo de transformaciones en el plano y en el espacio
+* Cálculos con operaciones matemáticas incluídas raíces cuadradas, trigonometría, etc
+
+Como contrapartida, estos son los inconvenientes detectados:
+
+* Curva de aprendizaje algo lenta
+* Esfuerzo elevado para conseguir lo esperado, sobre todo al principio
+
+
+Actualmente, trabajan en el proyecto:
+
+* Pablo Beltrán
+* Carlos Rodríguez
 
 
 
