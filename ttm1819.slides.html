@@ -12170,8 +12170,8 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Cuestiones-iniciales">Cuestiones iniciales<a class="anchor-link" href="#Cuestiones-iniciales">&#182;</a></h4><ul>
 <li>¿Cuánto mide <strong>la apotema de la base cuadrada</strong>?¿Tiene alguna relación con el lado del cuadrado?¿Y si el cuadrado tuviera un lado diferente, la relación se mantendría?</li>
-<li>¿Crees que para otros polígonos regulares va a seguir existiendo una relación entre el lado y el apotema?</li>
-<li>¿Sabes algo de <strong>trigonometría</strong>? En caso afirmativo, las preguntas anteriores deberían resultarte sencillas. En caso contrario, no te preocupes, la parte teórica la facilitaremos para que puedas hacer el modelado si te ves desbordado.</li>
+<li>¿Crees que para otros polígonos regulares va a seguir existiendo una <strong>relación entre el lado y la apotema</strong>?</li>
+<li>¿Sabes algo de <strong>trigonometría</strong>? En caso afirmativo, las preguntas anteriores deberían resultarte sencillas. En caso contrario, <strong>no te preocupes</strong> la parte teórica la facilitaremos para que puedas hacer el modelado si te ves desbordado.</li>
 </ul>
 
 </div>
@@ -12182,11 +12182,9 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Respuestas-a-las-preguntas">Respuestas a las preguntas<a class="anchor-link" href="#Respuestas-a-las-preguntas">&#182;</a></h4><ul>
-<li><p>La <strong>apotema</strong> es la mitad del lado. <img src="img/apotema_cuadrado.png" width="120%" align="center"></p>
+<li><p>La <strong>apotema</strong> es la mitad del lado. <img src="./img/apotema_cuadrado.png" width="80%"></p>
 </li>
-<li><p>Sí, siempre va a haber relación. La respuesta  está en la semejanza de triángulos rectángulos y nos permitirá calcular bien el radio, la apotema o el lado del polígono regular siempre que nos den uno de ellos.</p>
-</li>
-<li><p>Las razones trigonométricas de un ángulo agudo expresan la razón (relación) que hay entre los lados de cualquier triángulo rectángulo determinado por dicho ángulo (independientemente de la longitud de cualquiera de sus lados).</p>
+<li><p>Sí, siempre va a haber relación. La respuesta  está en la <strong>semejanza de triángulos rectángulos</strong> y <strong>la trigonometría</strong>. Esto nos permitirá calcular bien el radio, la apotema o el lado del polígono regular siempre que nos den uno de ellos.</p>
 </li>
 </ul>
 
@@ -12241,8 +12239,8 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Cuestiones-previas">Cuestiones previas<a class="anchor-link" href="#Cuestiones-previas">&#182;</a></h4><ul>
-<li>¿Hacía qué objeto tiende un polígono regular cuando aumentamos el número de lados al polígono?</li>
-<li>¿Cuánto tiene que girar el prisma hexágonal superpuesto para generar las puntas en mitad de las aristas del prisma original?¿Puedes dar una fórmula general que vaya en función del número de lados y que por tanto sirva para el cuadrado o el hexaǵono?</li>
+<li>¿Hacia qué objeto tiende un polígono regular cuando aumentamos el <strong>número de lados</strong> al polígono?</li>
+<li>¿Cuánto tiene que girar el prisma hexágonal superpuesto para generar las puntas en mitad de las aristas del prisma original?¿Puedes dar una <strong>fórmula general</strong> que vaya en función del número de lados y que por tanto sirva para el cuadrado o el hexaǵono?</li>
 </ul>
 
 </div>
@@ -12253,14 +12251,14 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Consideraciones-a-las-cuestiones">Consideraciones a las cuestiones<a class="anchor-link" href="#Consideraciones-a-las-cuestiones">&#182;</a></h4><ul>
-<li>Al aumentar el número de lados, el polígono se va acercando a un círculo como se puede ver en la siguiente animación:</li>
-</ul>
-<p><img src="./img/lim_circulo.gif" width="60%"></p>
-<ul>
-<li><p><strong>BlocksCAD</strong> interpreta los cilindros de esta manera, como un prisma de base regular con un número de lados elevado. Implementación de un prisma de base triangular frente a un cilindro convencional:</p>
-<p><img src="./img/cilindro_nlados.png" width="100%"></p>
+<li><p>Al aumentar el número de lados, el <strong>polígono</strong> se va acercando a un <strong>círculo</strong> como se puede ver en la siguiente animación:</p>
+<p><img src="./img/lim_circulo.gif" width="50%"></p>
 </li>
-<li><p>La rotación que hay que hacer es la mitad del ángulo central: $\alpha=\frac{180}{nlados}$</p>
+<li><p><strong>BlocksCAD</strong> interpreta los cilindros de esta manera, como un <strong>prisma</strong> de base regular <strong>con un número de lados elevado</strong>. Podemos convertir un cilindrode BlocksCAD en un prisma modificando el número de lados:<img src="./img/cilindro_nlados.png" width="100%"></p>
+</li>
+</ul>
+<ul>
+<li><p>La <strong>rotación</strong> que hay que hacer es la mitad del ángulo central: $\alpha=\frac{180}{nlados}$</p>
 </li>
 <li><p><strong>Importante:</strong> Al usar el bloque cilindro modificado por el número de aristas, el parámetro que le damos es el radio del polígono regular y no la longitud de la arista (o lado del polígono regular)</p>
 </li>
@@ -12274,14 +12272,23 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Modelado-en-BlocksCAD">Modelado en BlocksCAD<a class="anchor-link" href="#Modelado-en-BlocksCAD">&#182;</a></h4><ul>
-<li><p>Se propone como ejercicio su modelado. Al final de la documentación de la wiki tienes un enlace a una posible solución.</p>
-<p><img src="./img/18614-NRQ2AH.jpg" width="40%"></p>
+<li><p>Se propone como ejercicio su modelado.</p>
+<p><img src="./img/18614-NRQ2AH.jpg" width="40%" style="padding-right:30px;" align="left"> <img src="./img/est_hex.png" width="50%"></p>
 </li>
 </ul>
 
 </div>
 </div>
-</div></section></section><section><section>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Tienes una posible solución en <a href="https://www.blockscad3d.com/community/projects/272240">https://www.blockscad3d.com/community/projects/272240</a></p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
