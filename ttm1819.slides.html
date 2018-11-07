@@ -11923,6 +11923,10 @@ a.anchor-link {
 <li><strong>Carlos Rodríguez Jaso</strong> <em>(@es3a10)</em></li>
 </ul>
 </li>
+<li>Objetivo de la sesión:<ul>
+<li>Conocer las posibilidades de <a href="https://www.blockscad3d.com/">BlocksCAD</a> desde un punto de vista matemático</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -11952,7 +11956,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introducci&#243;n-a-BlocksCAD">Introducci&#243;n a <a href="https://www.blockscad3d.com/">BlocksCAD</a><a class="anchor-link" href="#Introducci&#243;n-a-BlocksCAD">&#182;</a></h1><h2 id="Aprendiendo-lo-b&#225;sico">Aprendiendo lo b&#225;sico<a class="anchor-link" href="#Aprendiendo-lo-b&#225;sico">&#182;</a></h2><h3 id="Formas-3D:">Formas 3D:<a class="anchor-link" href="#Formas-3D:">&#182;</a></h3><p>Son los objetos primitivos que podemos utilizar:</p>
+<h2 id="Introducci&#243;n-a-BlocksCAD">Introducci&#243;n a <a href="https://www.blockscad3d.com/">BlocksCAD</a><a class="anchor-link" href="#Introducci&#243;n-a-BlocksCAD">&#182;</a></h2><h2 id="Aprendiendo-lo-b&#225;sico">Aprendiendo lo b&#225;sico<a class="anchor-link" href="#Aprendiendo-lo-b&#225;sico">&#182;</a></h2><h3 id="Formas-3D:">Formas 3D:<a class="anchor-link" href="#Formas-3D:">&#182;</a></h3><p>Son los objetos primitivos que podemos utilizar:</p>
 
 </div>
 </div>
@@ -11973,8 +11977,119 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introducci&#243;n-a-BlocksCAD">Introducci&#243;n a <a href="https://www.blockscad3d.com/">BlocksCAD</a><a class="anchor-link" href="#Introducci&#243;n-a-BlocksCAD">&#182;</a></h1><h4 id="Cubos:-Mi-primer-objeto-en-3D">Cubos: Mi primer objeto en 3D<a class="anchor-link" href="#Cubos:-Mi-primer-objeto-en-3D">&#182;</a></h4><p>Observa qué pasa cuando modificas los parámetros:</p>
+<h2 id="Introducci&#243;n-a-BlocksCAD">Introducci&#243;n a <a href="https://www.blockscad3d.com/">BlocksCAD</a><a class="anchor-link" href="#Introducci&#243;n-a-BlocksCAD">&#182;</a></h2><h4 id="Cubos:-Mi-primer-objeto-en-3D">Cubos: Mi primer objeto en 3D<a class="anchor-link" href="#Cubos:-Mi-primer-objeto-en-3D">&#182;</a></h4><p>Observa qué pasa cuando modificas los parámetros:</p>
 <p><img src="./img/cubo_bs.gif" width="70%"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Introducci&#243;n-a-BlocksCAD">Introducci&#243;n a <a href="https://www.blockscad3d.com/">BlocksCAD</a><a class="anchor-link" href="#Introducci&#243;n-a-BlocksCAD">&#182;</a></h2><h4 id="Formas-3D:-Esferas">Formas 3D: Esferas<a class="anchor-link" href="#Formas-3D:-Esferas">&#182;</a></h4><p>Dentro del bloque <em>Formas 3D</em> podemos arrastrar el bloque <img src="./img/bloque_esfera.png" width="20%"></p>
+<p>Al renderizarlo obtendremos una esfera de <em>10mm</em> de radio:</p>
+<p><img src="./img/esfera10.png" width="30%"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Introducci&#243;n-a-BlocksCAD">Introducci&#243;n a <a href="https://www.blockscad3d.com/">BlocksCAD</a><a class="anchor-link" href="#Introducci&#243;n-a-BlocksCAD">&#182;</a></h2><h4 id="Formas-3D:-Cilindros-y-mucho-m&#225;s">Formas 3D: Cilindros y mucho m&#225;s<a class="anchor-link" href="#Formas-3D:-Cilindros-y-mucho-m&#225;s">&#182;</a></h4><p>Dentro del bloque <em>Formas 3D</em>, tenemos el bloque  <img src="./img/bloque_cilindro.png" width="60%"></p>
+<p>Explicación de algunos parámetros:</p>
+<ul>
+<li><strong>radio1</strong>, es el radio de la base inferior de la figura a modelar</li>
+<li><strong>candado</strong>, por defecto aparece cerrado, y esto hace que el parámetro <strong>radio2</strong> herede el valor de <strong>radio1</strong></li>
+<li><strong>radio2</strong>, radio de la base superior de la figura. Cuando coincida con <strong>radio1</strong> tendremos un cilindro, y cuando no, tendremos un <strong>tronco de cono</strong> o un <strong>cono</strong> si ponemos que el radio es cero</li>
+</ul>
+<p><strong>Ejemplos:</strong></p>
+<table>
+<thead><tr>
+<th style="text-align:center">Bloque</th>
+<th style="text-align:center">Renderizado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="./img/bloque11.png" width=100%></td>
+<td style="text-align:center"><img src="./img/cilindro5_5_10c.png" width=60%></td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="./img/bloque12.png"></td>
+<td style="text-align:center"><img src="./img/tronco10_5_20nc.png" width=60%></td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="./img/bloque13.png"></td>
+<td style="text-align:center"><img src="./img/cono10_20nc.png" width=60%></td>
+</tr>
+</tbody>
+</table>
+<p>BlocksCAD interpreta la base del cilindro como un polígono regular de <strong>"muchos"</strong> lados. Podemos generar un <strong>prisma</strong> de base regular modificando ese "muchos" con el bloque  <img src="./img/bloque_aristas.png" width="10%"> que aparece en <em>Transformaciones</em>. Mira este ejemplo que compara un cilindro con un prisma de base triangular:</p>
+<p><img src="./img/cilindro_nlados.png" width="100%"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Introducci&#243;n-a-BlocksCAD">Introducci&#243;n a <a href="https://www.blockscad3d.com/">BlocksCAD</a><a class="anchor-link" href="#Introducci&#243;n-a-BlocksCAD">&#182;</a></h2><h3 id="Transformaciones">Transformaciones<a class="anchor-link" href="#Transformaciones">&#182;</a></h3><h4 id="Traslaciones">Traslaciones<a class="anchor-link" href="#Traslaciones">&#182;</a></h4><p>Dentro del bloque <em>Formas 3D</em>, arrastramos el bloque <img src="./img/bloque_traslacion.png" width="20%">
+En este caso, los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son las coordenadas del vector de traslación.</p>
+<h4 id="Rotaciones">Rotaciones<a class="anchor-link" href="#Rotaciones">&#182;</a></h4><p>Bloque    <img src="./img/bloque_rotacion.png" width="30%"> 
+Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son los grados a rotar en los diferentes ejes.</p>
+<p><strong>Ejemplos:</strong></p>
+<table>
+<thead><tr>
+<th style="text-align:center">Ejemplo</th>
+<th style="text-align:left">Bloque</th>
+<th style="text-align:center">Renderizado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Prisma de 10x20x30 centrado y trasladado 30 en la dirección X, 30 en la Y y 40 en la Z</td>
+<td style="text-align:left"><img src="./img/bloque21.png"></td>
+<td style="text-align:center"><img src="./img/traslacion1.png"></td>
+</tr>
+<tr>
+<td style="text-align:center">Ejercicio anterior rotado 45º en el eje X</td>
+<td style="text-align:left"><img src="./img/bloque22.png"></td>
+<td style="text-align:center"><img src="./img/rotacion1.png"></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Introducci&#243;n-a-BlocksCAD">Introducci&#243;n a <a href="https://www.blockscad3d.com/">BlocksCAD</a><a class="anchor-link" href="#Introducci&#243;n-a-BlocksCAD">&#182;</a></h2><h3 id="Ops-de-Conjuntos:-Operaciones-l&#243;gicas">Ops de Conjuntos: Operaciones l&#243;gicas<a class="anchor-link" href="#Ops-de-Conjuntos:-Operaciones-l&#243;gicas">&#182;</a></h3><h4 id="Uni&#243;n:-Pegando-objetos">Uni&#243;n: Pegando objetos<a class="anchor-link" href="#Uni&#243;n:-Pegando-objetos">&#182;</a></h4><p>Para unir dos o más objetos tenemos que seleccionar el bloque <img src="./img/bloque_union.png" width="10%"></p>
+<h4 id="Diferencia:-Haciendo-agujeros">Diferencia: Haciendo agujeros<a class="anchor-link" href="#Diferencia:-Haciendo-agujeros">&#182;</a></h4><p>Con la diferencia lo que hacemos es hacer "agujeros". La forma de trabajar con el bloque es similar a la unión.</p>
+<p><strong>Ejemplos:</strong></p>
+<table>
+<thead><tr>
+<th style="text-align:center">Bloque</th>
+<th style="text-align:center">Renderizado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="./img/bloque31.png"></td>
+<td style="text-align:center"><img src="./img/ejemplo31.png"></td>
+</tr>
+<tr>
+<td style="text-align:center"><img src="./img/bloque32.png"></td>
+<td style="text-align:center"><img src="./img/ejemplo32.png"></td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </div>
