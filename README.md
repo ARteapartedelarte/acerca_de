@@ -4,7 +4,7 @@ El **proyecto** surge como un intento de explorar las posibilidades que el **mod
 
 La herramienta de modelado que se propone usar es **BlocksCAD**, que no es más que una implementación de **OpensCAD** utilizando bloques tipo [Scratch](https://scratch.mit.edu/). Esto lo hace ideal para iniciarse en el modelado 3d.
 
-Algunas de las **posibilidades** detectadas desde el punto de vista matemático:
+Algunas de las **posibilidades** detectadas desde el punto de **vista matemático**:
 
 * Desarrollo del **pensamiento computacional** y pensamiento **algorítmico**
 * Desarrollo de la **visión espacial**
