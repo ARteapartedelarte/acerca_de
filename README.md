@@ -1,14 +1,15 @@
 # Sobre nosotros y el proyecto
 
-El **proyecto** surge como un intento de explorar las posibilidades que el **modelado en 3d** pueda tener en el desarrollo de **conocimientos matemáticos**. Si bien desde un punto de vista tecnológico, el modelado en 3d se centra en el uso de la herramienta para el diseño de objetos, nuestro objetivo es experimentar contenidos matemáticos a través del modelado en 3d.
+El **proyecto** surge como un intento de explorar las posibilidades que el **modelado en 3d** pueda tener en el desarrollo de **conocimientos matemáticos**. Si bien desde un punto de vista tecnológico, el modelado en 3d se centra en el uso de la herramienta para el diseño de objetos, nuestro objetivo es experimentar contenidos matemáticos a través del modelado en 3d. De entrada, veremos que el lenguaje y, sobre todo, cómo describimos con él las formas y cuerpos en el espacio, juega un papel fundamental.
 
 La herramienta de modelado que se propone usar es **BlocksCAD**, que no es más que una implementación de **OpensCAD** utilizando bloques tipo [Scratch](https://scratch.mit.edu/). Esto lo hace ideal para iniciarse en el modelado 3d.
 
 Algunas de las **posibilidades** detectadas desde el punto de **vista matemático**:
 
 * Desarrollo del **pensamiento computacional** y pensamiento **algorítmico**
+* Desarrollo de la competencia lingüística, al tener que describir los objetos
 * Desarrollo de la **visión espacial**
-* Trabajo en coordenadas polares además de cartesianas
+* Trabajo en coordenadas polares, además de cartesianas
 * Abstracción de dimensiones para la comprensión de espacios n-dimensionales
 * **Operaciones** lógicas asociadas a **conjuntos**
 * Manejo de **transformaciones** en el plano y en el espacio
@@ -21,8 +22,8 @@ Como contrapartida, estos son los inconvenientes detectados:
 
 Actualmente, trabajan en el proyecto:
 
-* **Pablo Beltrán**
-* **Carlos Rodríguez**
+* **Pablo Beltrán Pellicer**
+* **Carlos Rodríguez Jaso**
 
 
 
