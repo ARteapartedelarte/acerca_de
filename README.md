@@ -2,7 +2,7 @@
 
 El **proyecto** surge como un intento de explorar las posibilidades que el **modelado en 3d** pueda tener en el desarrollo de **conocimientos matemáticos**. Si bien desde un punto de vista tecnológico, el modelado en 3d se centra en el uso de la herramienta para el diseño de objetos, nuestro objetivo es experimentar contenidos matemáticos a través del modelado en 3d.
 
-La herramienta de modelado que se está utilizando es **BlocksCAD**, que no es más que una implementación de **OpensCAD** utilizando bloques, si me permiten el similt, tipo Lego. Esto lo hace ideal para iniciarse en el modelado 3d.
+La herramienta de modelado que se propone usar es **BlocksCAD**, que no es más que una implementación de **OpensCAD** utilizando bloques tipo [Scratch](https://scratch.mit.edu/). Esto lo hace ideal para iniciarse en el modelado 3d.
 
 Algunas de las posibilidades detectadas desde el punto de vista matemático:
 
@@ -18,7 +18,6 @@ Como contrapartida, estos son los inconvenientes detectados:
 
 * Curva de aprendizaje algo lenta
 * Esfuerzo elevado para conseguir lo esperado, sobre todo al principio
-
 
 Actualmente, trabajan en el proyecto:
 
