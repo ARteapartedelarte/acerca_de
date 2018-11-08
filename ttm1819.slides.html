@@ -11958,9 +11958,8 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Aprendiendo-lo-b&#225;sico">Aprendiendo lo b&#225;sico<a class="anchor-link" href="#Aprendiendo-lo-b&#225;sico">&#182;</a></h2><h3 id="Formas-3D:">Formas 3D:<a class="anchor-link" href="#Formas-3D:">&#182;</a></h3><p>Son los objetos primitivos que podemos utilizar:</p>
 <h4 id="Cubos:-Mi-primer-objeto-en-3D">Cubos: Mi primer objeto en 3D<a class="anchor-link" href="#Cubos:-Mi-primer-objeto-en-3D">&#182;</a></h4><p>Dentro del bloque <em>Formas 3d</em>, arrastramos el bloque 
-<img src="./img/bloque_cubo.png" width="40%"> y lo llevamos a la área de programa.</p>
-<p>Al renderizar (botón <strong>Hacer</strong>) ya tenemos nuestro primer objeto con BlocksCAD.</p>
-<p><img src="./img/cube10x10x10c.png" width="40%"></p>
+<img src="./img/bloque_cubo.png" width="40%"> y lo llevamos a la área de programa. Al renderizar (botón <strong>Hacer</strong>) ya tenemos nuestro primer objeto con BlocksCAD.</p>
+<p><img src="./img/cube10x10x10c.png" width="30%"></p>
 
 </div>
 </div>
@@ -12158,7 +12157,7 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Estrella-mud&#233;jar-sencilla">Estrella mud&#233;jar sencilla<a class="anchor-link" href="#Estrella-mud&#233;jar-sencilla">&#182;</a></h2><h4 id="Modelo">Modelo<a class="anchor-link" href="#Modelo">&#182;</a></h4><p>Vamos a realizar <strong>una sencilla estrella mudejar</strong> con dos prismas cuadrados de dimensiones 10x10x5 (eje_x, eje_y, eje_z o en cristiano, ancho x largo x alto)</p>
+<h2 id="Estrella-mud&#233;jar-sencilla">Estrella mud&#233;jar sencilla<a class="anchor-link" href="#Estrella-mud&#233;jar-sencilla">&#182;</a></h2><h4 id="Modelo">Modelo<a class="anchor-link" href="#Modelo">&#182;</a></h4><p>Para empezar, vamos a realizar <strong>una sencilla estrella mudejar</strong> con dos prismas cuadrados de dimensiones 10x10x5 (eje_x, eje_y, eje_z o para entendernos, ancho por largo por alto):</p>
 <p><img src="img/r_est1.png" width="50%" align="center"></p>
 
 </div>
@@ -12169,7 +12168,7 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Cuestiones-iniciales">Cuestiones iniciales<a class="anchor-link" href="#Cuestiones-iniciales">&#182;</a></h4><ul>
-<li>¿Cuánto mide <strong>la apotema de la base cuadrada</strong>?¿Tiene alguna relación con el lado del cuadrado?¿Y si el cuadrado tuviera un lado diferente, la relación se mantendría?</li>
+<li>¿Existe alguna <strong>relación</strong>  entre el <strong>lado de un cuadrado y su apotema</strong>?</li>
 <li>¿Crees que para otros polígonos regulares va a seguir existiendo una <strong>relación entre el lado y la apotema</strong>?</li>
 <li>¿Sabes algo de <strong>trigonometría</strong>? En caso afirmativo, las preguntas anteriores deberían resultarte sencillas. En caso contrario, <strong>no te preocupes</strong> la parte teórica la facilitaremos para que puedas hacer el modelado si te ves desbordado.</li>
 </ul>
@@ -12223,7 +12222,16 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 
 </div>
 </div>
-</div></section></section><section><section>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Tienes la solución en <a href="https://www.blockscad3d.com/community/projects/266387">https://www.blockscad3d.com/community/projects/266387</a></p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -12359,9 +12367,9 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Cuestiones-previas">Cuestiones previas<a class="anchor-link" href="#Cuestiones-previas">&#182;</a></h4><ul>
-<li>Hemos visto que los prismas de base poligonal distinta del cuadrado se generan a partir del radio del polígono. ¿Existe alguna fórmula general que relacione la longitud del lado con el radio?¿Y alguna relación entre la apotema y  el lado?</li>
-<li>El cuadrado que genera las puntas, ¿Cuánto hay que trasaladarlo?</li>
-<li>¿Cuántos rotaciones hay que hacer del cuadrado para generar todas las puntas?¿Qué ángulo entre ellos?</li>
+<li>Dado un polígono regular: ¿Existe alguna <strong>fórmula general</strong> que <strong>relacione</strong> la longitud del <strong>lado</strong> con el <strong>radio</strong>?¿Y alguna relación entre la <strong>apotema</strong> y  el <strong>lado</strong>?</li>
+<li>El cuadrado que genera las puntas, <strong>¿Cuánto hay que trasaladarlo?</strong></li>
+<li>¿Cuántas <strong>rotaciones</strong> hay que hacer del cuadrado para generar todas las puntas?¿Qué ángulo entre ellos?</li>
 </ul>
 
 </div>
@@ -12371,35 +12379,51 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Respuestas-a-las-cuestiones-previas">Respuestas a las cuestiones previas<a class="anchor-link" href="#Respuestas-a-las-cuestiones-previas">&#182;</a></h4><ul>
-<li><p>La respuesta a la primera cuestión la encontramos en la trigonometría: Fíjate en la siguiente animación y los ángulos que aparecen:</p>
-<p><img src="./img/semi_angulo_central.gif" width="100%"></p>
+<h4 id="Respuestas-a-las-cuestiones-previas">Respuestas a las cuestiones previas<a class="anchor-link" href="#Respuestas-a-las-cuestiones-previas">&#182;</a></h4><p><img src="./img/semi_angulo_central.gif" width="60%"></p>
 <ul>
-<li>El triángulo formado por el centro del polígono, el  punto medio de un lado y un vértice adyacente es siempre rectángulo. El ángulo correspondiente al centro del polígono es la mitad del ángulo central ($\frac{\frac{360}{lados}}{2}$)</li>
-<li>Para un polígono regular de un número de lados determinado (por ejemplo, 5 ), todos los triángulos que construya como en la figura serán semejantes independientemente del tamaño del lado (Tienen dos ángulos iguales, en el ejemplo del pentágono tienen un ángulo recto y otro de 180/5 grados )</li>
-<li>Al ser semejantes los lados son proporcionales, o dicho de otra forma, la razón entre lados se mantiene constante y dependen exclusivamente del ángulo que se apoya en el centro del polígono. A esas razones se les llaman razones trigonométricas.. La principales son:<ul>
-<li>seno = lado opuesto/hipotenusa</li>
-<li>coseno = lado contiguo/hipotenusa</li>
-<li>tangente = lado opuesto/lado contiguo</li>
-</ul>
+<li><p>El <strong>triángulo</strong> formado por el centro del polígono, el  punto medio de un lado y un vértice adyacente es <strong>siempre rectángulo</strong>. El ángulo correspondiente al centro del polígono es <strong>la mitad del ángulo central</strong>: $$\alpha=\dfrac{\frac{360}{n_{lados}}}{2}$$</p>
 </li>
-<li>Traducidas a elementos del polígono serían:<ul>
-<li>$\sin{\alpha}=\frac{semilado}{radio}$</li>
-<li>$\cos{\alpha}=\frac{apotema}{radio}$</li>
-<li>$\tan{\alpha}=\frac{semilado}{apotema}$</li>
-</ul>
-</li>
-<li>Por tanto, conocido el polígono y por tanto el ángulo necesario y el lado del polígono, podemos calcular el radio y la apotema. Veámoslo con un ejemplo, para un pentágono de lado 5:<ul>
-<li>radio = (5/2)/seno(180/5)</li>
-<li>apotema = (5/2)/tan(180/5)</li>
-</ul>
+<li><p><strong>Fijado el número de lados</strong> del polígono regular, aunque varíe el tamaño del lado, los triángulos que salgan serán semejantes. <strong>Al ser semejantes los lados son proporcionales</strong>, o dicho de otra forma, <strong>la razón entre lados se mantiene constante y dependen exclusivamente del ángulo</strong> que se apoya en el centro del polígono: Son las <strong>razones trigonométricas</strong>. La principales son:</p>
 </li>
 </ul>
-</li>
-<li><p>El cuadrado hay que trasladarlo la apotema del polígono</p>
-</li>
-<li><p>Habrá que hacer tantas puntas como lados y habrá que rotar  la mitad del ángulo central: $\alpha=\frac{180}{nlados}$</p>
-</li>
+<table>
+<thead><tr>
+<th>Razón trigonométrica</th>
+<th>Aplicación en el polígono regular</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>seno</strong> = lado opuesto / hipotenusa</td>
+<td>$\sin{\alpha}=\frac{semilado}{radio}$</td>
+</tr>
+<tr>
+<td><strong>coseno</strong> = lado contiguo / hipotenusa</td>
+<td>$\cos{\alpha}=\frac{apotema}{radio}$</td>
+</tr>
+<tr>
+<td><strong>tangente</strong> = lado opuesto / lado contiguo</td>
+<td>$\tan{\alpha}=\frac{semilado}{apotema}$</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>El cuadrado hay que trasladarlo <strong>la apotema del polígono</strong></li>
+<li>Habrá que hacer <strong>tantas puntas como lados</strong> y habrá que <strong>rotar la mitad del ángulo central</strong>: $$\alpha=\frac{180}{nlados}$$</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Ejemplo de aplicación:</strong> Determina el radio y la apotema para un <strong>pentágono regular de lado 6</strong>:</p>
+<p><img src="./img/pent.png" width="30%"></p>
+<ul>
+<li><strong>radio = (6/2)/seno(180/5)</strong></li>
+<li><strong>apotema = (6/2)/tan(180/5)</strong></li>
 </ul>
 
 </div>
@@ -12417,12 +12441,21 @@ Los parámetros <strong>X</strong>, <strong>Y</strong> y <strong>Z</strong>, son
 
 </div>
 </div>
-</div></section></section><section><section>
+</div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#161;Gracias-por-vuestra-presencia-y-a-seguir-modelando-con-BlocksCAD!">&#161;Gracias por vuestra presencia y a seguir modelando con BlocksCAD!<a class="anchor-link" href="#&#161;Gracias-por-vuestra-presencia-y-a-seguir-modelando-con-BlocksCAD!">&#182;</a></h2><p>Podéis seguir trabajando en vuestra casa y mandar vuestros progresos a:</p>
+<p>Tienes una posible solución en <a href="https://www.blockscad3d.com/community/projects/267149">https://www.blockscad3d.com/community/projects/267149</a></p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#161;Gracias-por-vuestra-presencia-y-a-seguir-modelando-con-BlocksCAD!">&#161;Gracias por vuestra presencia y a seguir modelando con BlocksCAD!<a class="anchor-link" href="#&#161;Gracias-por-vuestra-presencia-y-a-seguir-modelando-con-BlocksCAD!">&#182;</a></h2><p>Podéis seguir trabajando en vuestra casa y colgar fotos de vuestros progresos a:</p>
 <p><a href="https://twitter.com/search?f=tweets&amp;q=%23ttmestrellamudejar&amp;src=typd">#ttmestrellamudejar</a></p>
 <p><strong>Otros enlaces que pueden ser interesantes:</strong></p>
 <ul>
