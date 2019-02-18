@@ -42,6 +42,7 @@ Actualmente, trabajan en el proyecto:
 ## Talleres
 
 * **TTM 18 -19**: Taller de talento matemático. [Presentación del taller](https://mat3d.github.io/acerca_de/ttm1819.slides.html#/)
+* **[III Jornada de Educación Matemática en Aragón](https://sites.google.com/site/ijemaragon/)**: Taller de BlocksCAD. [Presentación del taller](https://mat3d.github.io/acerca_de/jema19.slides.html#/)
 
 
 ## Agradecimientos
