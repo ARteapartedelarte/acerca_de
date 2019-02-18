@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>BLOCKSCAD Y LAS MATEMÁTICAS. IGNICIÓN</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./reveal.js/css/reveal.css">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="./reveal.js/css/theme/my_white.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="./reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">BLOCKSCAD Y LAS MATEMÁTICAS. IGNICIÓN<img src="img/logogs.png" align="left" style="padding-right:20px;" width="250" height="250"></h1>
+  <p class="subtitle">Taller de BlocksCAD</p>
+  <p class="date">23/02/2019<br><img src="img/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="20%"></p>
+</section>
+
+<section id="presentación" class="slide level1">
+<h1>Presentación</h1>
+<div class="columns">
+<div class="column" style="width:35%;">
+<p><a href="https://crdguez.github.io/about/">Pablo Beltrán Pellicer</a> <img src="img/pablogs.jpg" align="center" style="float:right" width="120%"></p>
+</div><div class="column" style="width:35%;">
+<p><a href="https://crdguez.github.io/about/">Carlos Rodríguez Jaso</a> <img src="img/carlosgs.jpg" align="center" style="float:right" width="120%"></p>
+</div>
+</div>
+</section>
+<section id="qué-es-blockscad" class="slide level1">
+<h1>¿Qué es Blockscad?</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li><strong>BlocksCAD</strong> es un programa para modelar objetos en 3D.</li>
+</ul>
+<div>
+<ul>
+<li class="fragment">Basado en <strong>bloques</strong></li>
+<li class="fragment">Desarrolla <strong>el pensamiento computacional</strong> y la <strong>capacidad espacial</strong>,</li>
+<li class="fragment">Permite trabajar <strong>contenidos matemáticos</strong>, sobre todo de geometría, aunque no exclusivamente</li>
+</ul>
+</div>
+</div><div class="column" style="width:60%;">
+<p><img src="./img/zonas_trabajo.png" width="800px"></p>
+<p><a href="https://www.blockscad3d.com/editor/">https://www.blockscad3d.com/editor/</a></p>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>Preguntas para reflexionar</li>
+<li>Cómo genera el conocimiento la comunidad científica</li>
+<li>Los docentes como transmisores de conocimiento</li>
+<li>Hacer la encuesta</li>
+</ul>
+</aside>
+<h3 id="formas-3d">Formas 3D:</h3>
+<p>Son los objetos primitivos que podemos utilizar, y que se pueden transformar con el resto de bloques de los otros grupos:</p>
+<h4 id="cubos-mi-primer-objeto-en-3d">Cubos: Mi primer objeto en 3D</h4>
+<p>Cuando se aprende un lenguaje de programación como pueda ser este, normalmente, la primera actividad que se propone es una programa muy sencillo que permita al usuario familiarizarse con la herramienta. Antiguamente para los lenguajes de programación tradicionales, un programa típico era hacer que por pantalla apareciera el texto <strong>Hola mundo</strong>. En nuestro caso, lo más sencillo es construir un cubo, por lo que éste va a ser nuestro <strong>Hola mundo</strong> particular.</p>
+<p><strong>Procedimiento:</strong></p>
+<p>Dentro del bloque <em>Formas 3d</em>, arrastramos el bloque <img src="/home/hp/mi_git/mat3d/actividades3d.wiki/img/bloque_cubo.png" width="40%"> y lo llevamos a la zona del programa.</p>
+<p>Ya tenemos nuestro primer programa con BlocksCAD. Le estamos diciendo que modele un cubo, pero no lo vemos aún. Nos falta ejecutar la instrucción para que lo genere. En los programas de modelado a la ejecución de un programa que contiene un diseño se le llama <strong>renderizado</strong>. Para renderizar, hemos de ir al <em>área de dibujo o renderizado</em> y pulsar el botón <strong>Hacer</strong> que se encuentra en la esquina inferior izquierda. El resultado será algo parecido a esto:</p>
+<p><img src="/home/hp/mi_git/mat3d/actividades3d.wiki/img/cube10x10x10c.png" width="40%"></p>
+<p>Observa qué pasa cuando modificas los parámetros:</p>
+<p><img src="/home/hp/mi_git/mat3d/actividades3d.wiki/img/cubo_bs.gif" width="80%"></p>
+</section>
+<section id="resultados-objetivo" class="slide level1">
+<h1>Resultados, objetivo</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="img/cleduans.png" align="center" style="float:center" width="70%"></p>
+<p><a href="https://goo.gl/5srkMW">https://goo.gl/5srkMW</a></p>
+</div><div class="column" style="width:60%;">
+<p>Me daré por satisfecho si al final de la presentación …</p>
+<div>
+<ul>
+<li class="fragment">… comprendemos la <strong>importancia de compartir el conocimiento que generemos</strong></li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>Valorar si se pueden los resultados</li>
+<li>Concluir con la importancia de compartir</li>
+</ul>
+</aside>
+<h3 id="section"></h3>
+</section>
+<section id="un-poco-de-historia" class="slide level1">
+<h1>Un poco de historia</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="img/enciclopedia.png" align="center" style="float:center" width="60%"></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:Encyclopedie_de_D%27Alembert_et_Diderot_-_Premiere_Page_-_ENC_1-NA5.jpg">Encyclopedie de D’Alembert et Diderot (fuente: Wikimedia Commons)</a></p>
+</div><div class="column" style="width:60%;">
+<ul>
+<li>Los intereses privados frente al bien común hacen que surjan en el s. XVIII los <strong>derechos de autor</strong> frente al dominio público.</li>
+</ul>
+<div>
+<ul>
+<li class="fragment"><p>Por otro lado, diferentes corrientes han intentado democratizar o socializar el conocimiento:</p>
+<ul>
+<li class="fragment"><p>La <strong>Ilustración</strong> en el s. XVIII: la enciclopedia de Diderot y D`Alembert</p></li>
+<li class="fragment"><p>Internet y el concepto de <strong>Web 2.0</strong></p></li>
+<li class="fragment"><p>El movimiento del <strong>Software Libre</strong> y su ética</p></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>La defensa de los derechos de autor es muy respetable aunque, es obvio que la ocultación de información no favorece el aprovechamiento del conocimiento. La pérdida de libertad de acceso al conocimiento “frena” su desarrollo.</li>
+<li>Movimientos sociales que intentan democratizar el conocimiento
+<ul>
+<li>La Ilustración, corriente social que considera la razón como forma de progreso frente al inmovilismo de la ignorancia. Surge la necesidad de “aprender” y dotar de conocimiento a la sociedad. La educación se convierte en un derecho fundamental</li>
+<li>Ya en nuestro siglo, Internet se convierte en la herramienta de difusión de conocimiento. La tecnología Web 2.0 (2004) supone una revolución: Páginas dinámicas. Auge de foros, etc</li>
+<li>1983 - El movimiento del Software Libre, cuya filosofía ha influido sobre el auge de la Cultura Libre</li>
+</ul></li>
+</ul>
+</aside>
+</section>
+<section id="la-ética-del-movimiento-del-software-libre" class="slide level1">
+<h1>La ética del Movimiento del Software Libre</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="img/stallman.png" align="center" style="float:center" width="70%"></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:Richard_Stallman_2016_Talk_in_Madrid_06.jpg">Richard Stallman (fuente: Wikimedia Commons)</a></p>
+</div><div class="column" style="width:60%;">
+<ul>
+<li>Fundado por Richard Stallman</li>
+</ul>
+<div>
+<ul>
+<li class="fragment">Defiende el hecho de ganar en libertad al tener acceso “libre” al conocimiento (particularmente al código de los programas):
+<ul>
+<li class="fragment">1ª Libertad: Libertad de <strong>uso</strong></li>
+<li class="fragment">2ª Libertad: Libertad de <strong>estudio</strong></li>
+<li class="fragment">3ª Libertad: Libertad de <strong>distribución</strong></li>
+<li class="fragment">4ª Libertad: Libertad de <strong>mejora</strong></li>
+</ul></li>
+<li class="fragment">Obligaciones: Vienen determinadas por las licencias. Más o menos restrictivas, pero al menos exigen la <strong>atribución</strong></li>
+<li class="fragment">Extensión a otros ámbitos culturales: Música, arte, hardware, etc. <span class="math inline">→</span> <strong>Cultura Libre</strong></li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>Las licencias, si son libres, respetan las libertades</li>
+</ul>
+</aside>
+</section>
+<section id="algunos-mitos-y-barreras-del-software-libre" class="slide level1">
+<h1>Algunos mitos y barreras del Software Libre</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="img/revolucion.png" align="center" style="float:center" width="70%"></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:CC_guidant_les_contributeurs.jpg">Eugène Delacroix derivative work: Ju gatsu mikka (fuente:wikimedia)</a></p>
+</div><div class="column" style="width:60%;">
+<ul>
+<li>El software libre es <strong>gratis</strong></li>
+</ul>
+<div>
+<ul>
+<li class="fragment"><p>El software libre <strong>no me obliga</strong> a nada</p></li>
+<li class="fragment"><p>El SL es de <strong>“frikis”</strong> que solo usan SL</p></li>
+<li class="fragment"><strong>Dificultades</strong> para “contribuir”
+<ul>
+<li class="fragment">Comunidades cerradas</li>
+<li class="fragment">“Aún no tengo todo bien documentado”</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>La Cultura Libre es solo una opción, lo no libre es también muy respetable.</li>
+<li>Hay ejemplos de SW libre de pago: El más fácil de entender sería Android, basado en GNU-Linux, en el caso de que fuera 100% libre.</li>
+<li>Los foros de comunidades suelen tener normas para evitar que se genere conocimiento redundante. Muchas veces “da miedo” preguntar</li>
+</ul>
+</aside>
+</section>
+<section id="beneficios-de-compartir-el-conocimiento" class="slide level1">
+<h1>Beneficios de “compartir” el conocimiento</h1>
+<div class="columns">
+<div class="column" style="width:70%;">
+<ul>
+<li><strong>Democratización</strong> del modelo que sigue la comunidad científica</li>
+</ul>
+<div>
+<ul>
+<li class="fragment">Tener que documentar nos ayuda a sintetizar, organizar y <strong>aprender en profundidad</strong></li>
+<li class="fragment"><strong>Ayudamos</strong> a otras personas a que aprendan</li>
+<li class="fragment">Posibilitamos que <strong>otros mejoren</strong> lo que hemos hecho</li>
+<li class="fragment">Transmitimos a nuestro alumnado <strong>un modelo de enseñanza-aprendizaje</strong></li>
+<li class="fragment">Generalmente “el conocimiento” se <strong>genera de manera más rápida</strong></li>
+</ul>
+</div>
+</div><div class="column" style="width:30%;">
+<p><img src="img/darwin.png" align="center" style="float:center" width="100%"></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:First_replication.jpg#file">Primera réplica RepRap (fuente:wikimedia)</a></p>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>Hablar del proyecto RepRap:
+<ul>
+<li>Como Stratasys (años 80) patenta la tecnología FDM (Modelado por deposición de material fundio)</li>
+<li>Vence la patente y Bowyer en 2005 empieza a investigar y funda el proyecto libre RepRap</li>
+<li>9 de febrero de 2008: RepRap 1.0 “Darwin”</li>
+</ul></li>
+<li>Actualmente hay cientos de modelos y una industria que gira alrededor de este tipo de impresoras</li>
+<li>Se ha “democratizado” el uso de impresoras 3D</li>
+</ul>
+</aside>
+</section>
+<section id="robótica-educativa" class="slide level1">
+<h1>Robótica educativa</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="img/cartuino.png" align="center" style="float:center" width="100%"></p>
+</div><div class="column" style="width:60%;">
+<p>El antes del boom de la robótica educativa libre: <a href="https://www.lego.com/es-es/mindstorms">Lego Mindstorms</a>, <a href="https://www.bee-bot.us/">Bee-bot</a>, …</p>
+<div>
+<ul>
+<li class="fragment">Ventajas de la robótica no libre:
+<ul>
+<li class="fragment"><strong>Facilidad</strong> de uso</li>
+<li class="fragment"><strong>Robustos</strong></li>
+<li class="fragment">Funcionan <strong>bien</strong></li>
+</ul></li>
+<li class="fragment">Inconvenientes:
+<ul>
+<li class="fragment"><strong>Caros</strong></li>
+<li class="fragment">Software <strong>limitado</strong></li>
+<li class="fragment">Creatividad <strong>limitada</strong></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>Experiencia personal: Trabajaba para orientación, ahora no. Necesidad de nuevas metodologías y actividades que resultaran atractivas.</li>
+<li>Los robots comerciales no libres eran prácticamente inaccesibles (2013). Banco de robots del departamento de educación de Navarra (fuerte desembolso por parte del estado). No me los podía quedar. Empiezo a investigar, construyo Cartuino.</li>
+</ul>
+</aside>
+</section>
+<section id="el-boom-de-la-robótica-libre" class="slide level1">
+<h1>El boom de la Robótica Libre</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="img/skybot.png" align="center" style="float:center" width="100%"></p>
+<p><a href="http://www.iearobotics.com/wiki/index.php?title=Archivo:Miniskybot-v1.0-red-r1.jpg">miniskybot (fuente: iearobotics)</a></p>
+</div><div class="column" style="width:60%;">
+<p>Tecnologías que han facilitado su desarrollo:</p>
+<div>
+<ul>
+<li class="fragment"><strong>Microcontrolador</strong> libre: <a href="https://www.arduino.cc/">Arduino</a></li>
+<li class="fragment"><strong>Software</strong> libre y una comunidad activa: <a href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a></li>
+<li class="fragment"><strong>Mecánica</strong>: Impresión 3D o máquinas de corte CNC (muchas de ellas libres de <a href="https://reprap.org/wiki/RepRap">RepRap</a>)</li>
+</ul>
+</div>
+<p><strong>Consecuencia</strong> <span class="math inline">→</span> Democratización de la robótica y multitud de modelos derivados</p>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>Miniskybot de Juan González, posiblemente el primer, como lo denominó él mismo, printbot</li>
+</ul>
+</aside>
+</section>
+<section id="algunos-ejemplos-de-robots-libres" class="slide level1">
+<h1>Algunos ejemplos de robots “libres”</h1>
+<p>Basta con echar un vistazo en <a href="https://www.thingiverse.com/explore/popular/hobby/robotics/">Thingiverse</a></p>
+<div class="columns">
+<div class="column" style="width:25%;">
+<p><img src="img/renacuajo.png" align="center" style="float:center" width="90%"></p>
+<p><a href="https://github.com/Obijuan/printbots/tree/master/Renacuajo">Renacuajo de bq (fuente: github)</a></p>
+</div><div class="column" style="width:25%;">
+<p><img src="img/eezy.png" align="center" style="float:center" width="90%"></p>
+<p><a href="https://www.thingiverse.com/thing:1454048">Eezybotarm de Carlo Franciscone (fuente: Thingiverse)</a></p>
+</div><div class="column" style="width:25%;">
+<p><img src="img/otto.png" align="center" style="float:center" width="90%"></p>
+<p><a href="https://www.thingiverse.com/thing:1568652">Otto de Camilo Parra (fuente: Thingiverse)</a></p>
+</div><div class="column" style="width:25%;">
+<p><img src="img/escornabot.png" align="center" style="float:center" width="90%"></p>
+<p><a href="https://bricolabs.cc/wiki/proyectos/escornabot">Escornabot - Varios autores (fuente: bricolabs)</a></p>
+</div>
+</div>
+<aside class="notes">
+
+</aside>
+</section>
+<section id="resumiendo" class="slide level1">
+<h1>Resumiendo</h1>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p><br></p>
+<p>Vale la pena aplicar la ética de la cultura libre, publicar libremente, desarrollar en abierto … <br></p>
+<p><br></p>
+<p><strong>… En definitiva, generar y compartir el conocimiento</strong> <br><br></p>
+</div><div class="column" style="width:35%;">
+<p><img src="img/ghcatedu.png" align="center" style="float:center" width="90%"></p>
+<p><a href="https://github.com/catedu">Github de Catedu</a></p>
+</div>
+</div>
+<aside class="notes">
+
+</aside>
+</section>
+<section id="gracias-por-vuestra-atención" class="slide level1">
+<h1>Gracias por vuestra atención</h1>
+<p><br> <br> <em>“Si tú tienes una manzana y yo tengo una manzana, e intercambiamos las manzanas, entonces tanto tú como yo seguiremos teniendo una manzana. Pero si tú tienes una idea y yo tengo una idea, e intercambiamos ideas, entonces ambos tendremos dos ideas.”</em></p>
+<p><em>George Bertrand Shaw</em></p>
+<aside class="notes">
+<p>George Bertrand fue un escritor irlandés del s.XIX</p>
+</aside>
+</section>
+    </div>
+  </div>
+
+  <script src="./reveal.js/lib/js/head.min.js"></script>
+  <script src="./reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: './reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: './reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
