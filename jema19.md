@@ -6,7 +6,7 @@ date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-licen
 
 # Presentación
 
-
+##
 
 :::::::::::::: {.columns}
 ::: {.column width="35%"}
@@ -24,6 +24,8 @@ date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-licen
 
 
 # ¿Qué es Blockscad?
+
+## ?
 
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
