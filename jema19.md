@@ -1,6 +1,6 @@
 ---
 title:  BLOCKSCAD Y LAS MATEMÁTICAS. IGNICIÓN<img src="img/logogs.png" align="left" style="padding-right:20px;" width="250" height="250">
-subtitle: Taller de BlocksCAD
+subtitle: Taller de BlocksCAD<br> --En construcción-- 
 date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="20%">
 ---
 
