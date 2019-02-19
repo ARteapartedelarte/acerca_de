@@ -60,7 +60,7 @@ Toda la documentación del proyecto se encuentra liberada en [Github](https://gi
 
 :::::::::::::: {.columns}
 
-::: {.column width="55%"}
+::: {.column width="45%"}
 
 *  [acerca de](https://github.com/mat3d/acerca_de): Información del proyecto, presentaciones, enlaces a recursos, ...
 *  [actividades3d](https://github.com/mat3d/actividades3d): Wiki con actividades de modelado
@@ -68,9 +68,9 @@ Toda la documentación del proyecto se encuentra liberada en [Github](https://gi
 
 :::
 
-::: {.column width="20%"}
+::: {.column width="40%"}
 
-<img src="./img/mat3d.png">
+<img src="./img/mat3d.png" width="800px">
 :::
 ::::::::::::::
 Si quieres colaborar, puedes ponerte en contacto con alguien del proyecto
@@ -111,7 +111,7 @@ Si quieres colaborar, puedes ponerte en contacto con alguien del proyecto
 	- Proyectos
 	- Opciones
 - Barra de bloques
-- Área de programa o proyecto
+- Área de programa o proyecto: ficheros .xml
 - Área de renderizado
 
 :::
@@ -122,7 +122,33 @@ Si quieres colaborar, puedes ponerte en contacto con alguien del proyecto
 :::
 ::::::::::::::
 
+Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/actividades3d/wiki/Introducci%C3%B3n-a-BlocksCAD)
 
+## Empezamos a modelar: Cubo Hola Mundo
+
+<img src="./img/cubo_bs.gif" width="80%">
+
+
+## Más formas 3D
+
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+* Esferas
+* Cilindros:
+	- Cilindros
+	- Conos y troncos
+	- Prismas y troncos
+	- Pirámides
+
+:::
+::: {.column width="40%"}
+<img src="./img/cilindro_nlados.png" width="800px">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+:::
+::::::::::::::
 
 # Actividad propuesta:
 
