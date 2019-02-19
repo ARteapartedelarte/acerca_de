@@ -40,7 +40,7 @@ date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-licen
 :::
 :::
 ::: {.column width="40%"}
-<img src="./img/zonas_trabajo.png" width="800px">
+<img src="./img/sponge.png" width="800px">
 
 [https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
 
@@ -56,17 +56,73 @@ date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-licen
 
 ## Documentación
 
-Toda la documentación del proyecto se encuentra liberada en [Github](https://github.com/mat3d). La documentación se divide en:
+Toda la documentación del proyecto se encuentra liberada en [Github](https://github.com/mat3d):
+
+:::::::::::::: {.columns}
+
+::: {.column width="55%"}
 
 *  [acerca de](https://github.com/mat3d/acerca_de): Información del proyecto, presentaciones, enlaces a recursos, ...
 *  [actividades3d](https://github.com/mat3d/actividades3d): Wiki con actividades de modelado
-*  [mat3d.github.io](https://github.com/mat3d/mat3d.github.io): El código fuente de la [página web](http://mat3d.github.io). Si no estás familiarizado con Github, desde la web accederás mejor a los contenidos.
+*  [mat3d.github.io](https://github.com/mat3d/mat3d.github.io): El código fuente de la [página web](http://mat3d.github.io)
 
-Si alguien quiere colaborar, puede ponerse en contacto con alguien del proyecto. Nos encataría que más personas ampliaran el proyecto.
+:::
+
+::: {.column width="20%"}
+
+<img src="./img/mat3d.png">
+:::
+::::::::::::::
+Si quieres colaborar, puedes ponerte en contacto con alguien del proyecto
+
+::: notes
+* Si no estás familiarizado con Github, desde la web accederás mejor a los contenidos.
+* Si alguien quiere colaborar, puede ponerse en contacto con alguien del proyecto. Nos encataría que más personas ampliaran el proyecto.
+:::
+
 
 # Conociendo BlocksCAD
 
-##
+## Acceso
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+* Usando la web de BlocksCAD: [https://www.blockscad3d.com ](https://www.blockscad3d.com/)
+* Opciones:
+	- Probar --> [Create Now](https://www.blockscad3d.com/editor)
+	- Registrarte en su web --> [Register](https://www.blockscad3d.com/account/register/)
+
+<br>
+
+* **Alternativa: **Crear un servidor local. Instrucciones en el [repositorio Github con el código libre de BlocksCAD](https://github.com/EinsteinsWorkshop/BlocksCAD)
+:::
+::: {.column width="40%"}
+<img src="./img/login.png" width="800px">
+:::
+::::::::::::::
+
+## El entorno
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+- Barra de menús/herramientas:
+	- Idioma 
+	- Proyectos
+	- Opciones
+- Barra de bloques
+- Área de programa o proyecto
+- Área de renderizado
+
+:::
+::: {.column width="40%"}
+<img src="./img/zonas_trabajo.png" width="800px">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+:::
+::::::::::::::
+
+
 
 # Actividad propuesta:
 
