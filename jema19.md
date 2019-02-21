@@ -150,6 +150,53 @@ Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/activida
 :::
 ::::::::::::::
 
+## Esferas
+
+<img src="./img/esferas_bs.gif" width="80%">
+
+## Cilindros, conos y troncos
+
+<img src="./img/cilindros_bs.gif" width="80%">
+
+## Prismas, pirámides y troncos
+
+<img src="./img/prismas_bs.gif" width="80%">
+
+## Transformaciones en el espacio
+
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+* Traslaciones
+* Rotaciones
+* Escalas
+* Simetrías
+:::
+::: {.column width="40%"}
+<img src="./img/ejemplo51.png" width="800px">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+:::
+::::::::::::::
+
+## Traslaciones
+
+<img src="./img/traslaciones_bs.gif" width="80%">
+
+
+## Rotaciones
+
+<img src="./img/rotaciones_bs.gif" width="80%">
+
+## Escalas
+
+<img src="./img/escalas_bs.gif" width="80%">
+
+## Simetrías
+
+<img src="./img/simetrias_bs.gif" width="80%">
+
 # Actividad propuesta:
 
 ## Estrella mudéjar
