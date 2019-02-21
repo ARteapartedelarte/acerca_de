@@ -1,7 +1,39 @@
 ---
 title:  BLOCKSCAD Y LAS MATEMÁTICAS. IGNICIÓN<img src="img/logogs.png" align="left" style="padding-right:20px;" width="250" height="250">
 subtitle: Taller de BlocksCAD<br> --En construcción-- 
+date: 23/02/2019<br><---
+title:  BLOCKSCAD Y LAS MATEMÁTICAS. IGNICIÓN<img src="img/logogs.png" align="left" style="padding-right:20px;" width="250" height="250">
+subtitle: Taller de BlocksCAD<br> --En construcción-- 
 date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="20%">
+---
+
+# Presentación
+
+## 
+
+:::::::::::::: {.columns}
+::: {.column width="35%"}
+[Pablo Beltrán Pellicer](http://personal.unizar.es/pbeltran/)
+<img src="img/pablogs.jpg" align="center" style="float:right" width="120%"><br>pabelpe@gmail.com
+
+:::
+::: {.column width="35%"}
+[Carlos Rodríguez Jaso](https://crdguez.github.io/about/)
+<img src="img/carlosgs.jpg" align="center" style="float:right" width="120%"><br>carlos.rodriguez.jaso@gmail.com
+
+:::
+::::::::::::::
+
+
+## El proyecto
+
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+* Origen: Exploración de las posibilidades matemáticas en la impresión y modelado 3D.  
+
+img src="img/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="20%">
 ---
 
 # Presentación
@@ -226,7 +258,16 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 ## Operaciones matemáticas
 
 * vamos a poder realizar operaciones matemáticas con las medidas y los valores que contengan las variables
-* José pringado
+
+## Bucles o repeticiones
+
+* permite repetir un conjunto de bloques un número determinado de veces
+* el número de veces se controla con una variable a la que llamaremos contador
+
+## Funciones
+
+* Permiten encapsular un conjunto de bloques en otro
+* al ejecutar la función ejecutaremos internamente los bloques encapsulados
 
 # Actividad propuesta:
 
