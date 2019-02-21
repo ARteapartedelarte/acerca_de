@@ -226,7 +226,16 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 ## Operaciones matemáticas
 
 * vamos a poder realizar operaciones matemáticas con las medidas y los valores que contengan las variables
-* José pringado
+
+## Bucles o repeticiones
+
+* permite repetir un conjunto de bloques un número determinado de veces
+* el número de veces se controla con una variable a la que llamaremos contador
+
+## Funciones
+
+* Permiten encapsular un conjunto de bloques en otro
+* al ejecutar la función ejecutaremos internamente los bloques encapsulados
 
 # Actividad propuesta:
 
