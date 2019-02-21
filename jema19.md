@@ -124,7 +124,7 @@ Si quieres colaborar, puedes ponerte en contacto con alguien del proyecto
 
 Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/actividades3d/wiki/Introducci%C3%B3n-a-BlocksCAD)
 
-## Empezamos a modelar: Cubo Hola Mundo
+## Empezamos a modelar: Cubo "Hola Mundo"
 
 <img src="./img/cubo_bs.gif" width="80%">
 
@@ -196,6 +196,26 @@ Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/activida
 ## Simetrías
 
 <img src="./img/simetrias_bs.gif" width="80%">
+
+# Actividad propuesta: Spinner
+
+## 
+:::::::::::::: {.columns}
+::: {.column width="40%"}
+
+Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 7 mm de altura. Tienes que conseguir algo parecido a esto:
+:::
+::: {.column width="60%"}
+<img src="./img/spinner.png" width="40%">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+:::
+::::::::::::::
+## Posible solución
+
+
+
+
 
 # Actividad propuesta:
 
