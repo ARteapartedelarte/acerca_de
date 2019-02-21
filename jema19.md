@@ -215,7 +215,18 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 
 
 
+# BlocksCAD "avanzado"
 
+## Variables
+
+* Una variable es un contenedor de datos
+* Los datos serán medidas
+* Nos va a permitir parametrizar nuestros objetos
+
+## Operaciones matemáticas
+
+* vamos a poder realizar operaciones matemáticas con las medidas y los valores que contengan las variables
+* José pringado
 
 # Actividad propuesta:
 
@@ -243,4 +254,3 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 George Bertrand fue un escritor irlandés del s.XIX
 
 :::
-
