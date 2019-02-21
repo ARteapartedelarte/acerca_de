@@ -7,34 +7,7 @@ subtitle: Taller de BlocksCAD<br> --En construcción--
 date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="20%">
 ---
 
-# Presentación
 
-## 
-
-:::::::::::::: {.columns}
-::: {.column width="35%"}
-[Pablo Beltrán Pellicer](http://personal.unizar.es/pbeltran/)
-<img src="img/pablogs.jpg" align="center" style="float:right" width="120%"><br>pabelpe@gmail.com
-
-:::
-::: {.column width="35%"}
-[Carlos Rodríguez Jaso](https://crdguez.github.io/about/)
-<img src="img/carlosgs.jpg" align="center" style="float:right" width="120%"><br>carlos.rodriguez.jaso@gmail.com
-
-:::
-::::::::::::::
-
-
-## El proyecto
-
-
-:::::::::::::: {.columns}
-::: {.column width="60%"}
-
-* Origen: Exploración de las posibilidades matemáticas en la impresión y modelado 3D.  
-
-img src="img/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="20%">
----
 
 # Presentación
 
