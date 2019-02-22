@@ -274,11 +274,10 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 
 * Operaciones matemáticas con las medidas y los valores de las variables
 
-<img src="./img/cuboparam2_bs.gif" width="70%">
+<img src="./img/cuboparam2_bs.gif" width="65%">
 [https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
 
 ## Bucles o repeticiones
-
 
 :::::::::::::: {.columns}
 ::: {.column width="20%"}
@@ -297,14 +296,61 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 
 ## Funciones
 
+
+
+:::::::::::::: {.columns}
+::: {.column width="20%"}
+
 * Permiten encapsular un conjunto de bloques en otro
+
 * al ejecutar la función ejecutaremos internamente los bloques encapsulados
 
+:::
+::: {.column width="70%"}
+
+<img src="./img/ruedasbs.gif" width="80%">
+
+https://www.blockscad3d.com/editor/
+:::
+::::::::::::::
+
 # Actividad propuesta:
+
+## Spinner paramétrico
+
+
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Realiza un spinner de dimensiones "variables" donde se pueda elegir el tamaño del agujero, el grosor del spinner y el número de ramas 
+
+- Crea una función que genere una rama
+
+- Repite la función anterior haciendo el giro que corresponda para obtener el spinner deseado
+
+- El resto de las medidas se dejan a criterio del diseñador, pero que queden proporcionales
+
+  
+
+:::
+::: {.column width="40%"}
+<img src="./img/rama_spinner.png" width="30%">
+
+<img src="./img/spinnerparam_bs.gif" width="90%">
+
+
+:::
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+::::::::::::::
+
+
+# Ínspirate: Desafío 1
 
 ## Estrella mudéjar
 
-# Actividad propuesta:
+# Ínspirate: Desafío 2
 
 ## Cono de Apolonio
 
