@@ -1,10 +1,8 @@
 ---
 title:  BLOCKSCAD Y LAS MATEMÁTICAS. IGNICIÓN<img src="img/logogs.png" align="left" style="padding-right:20px;" width="250" height="250">
-subtitle: Taller de BlocksCAD<br> --En construcción-- 
-date: 23/02/2019<br><---
 title:  BLOCKSCAD Y LAS MATEMÁTICAS. IGNICIÓN<img src="img/logogs.png" align="left" style="padding-right:20px;" width="250" height="250">
-subtitle: Taller de BlocksCAD<br> --En construcción-- 
-date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="20%">
+subtitle: Taller de BlocksCAD
+date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="20%"><br><br><small><em>(Presentación realizada con  <a href="https://revealjs.com/#/">Reveal.js</a>, <a href="https://pandoc.org/">Pandoc</a> y <a href="https://www.markdownguide.org/">Markdown</a>)</em></small>
 ---
 
 
@@ -16,12 +14,12 @@ date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-licen
 :::::::::::::: {.columns}
 ::: {.column width="35%"}
 [Pablo Beltrán Pellicer](http://personal.unizar.es/pbeltran/)
-<img src="img/pablogs.jpg" align="center" style="float:right" width="120%"><br>pabelpe@gmail.com
+<img src="img/pablogs.jpg" align="center" style="float:right" width="120%"><br><small>pabelpe@gmail.com</small>
 
 :::
 ::: {.column width="35%"}
 [Carlos Rodríguez Jaso](https://crdguez.github.io/about/)
-<img src="img/carlosgs.jpg" align="center" style="float:right" width="120%"><br>carlos.rodriguez.jaso@gmail.com
+<img src="img/carlosgs.jpg" align="center" style="float:right" width="120%"><br><small>carlos.rodriguez.jaso@gmail.com</small>
 
 :::
 ::::::::::::::
@@ -202,6 +200,38 @@ Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/activida
 
 <img src="./img/simetrias_bs.gif" width="80%">
 
+## Operaciones de conjuntos ($\cup$,$\cap$, $\setminus$)
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+* Unión (Pegar objetos)
+* Diferencia ("Hacer agujeros")
+* Intersección ("Zonas comunes")
+
+:::
+::: {.column width="40%"}
+<img src="./img/ejemplo32.png" width="60%">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+:::
+
+::::::::::::::
+
+## Unión
+
+<img src="./img/union_bs.gif" width="80%">
+
+## Diferencia
+
+<img src="./img/diferencia_bs.gif" width="80%">
+
+## Intersección
+
+<img src="./img/interseccion_bs.gif" width="80%">
+
+## ¡Ya sabes lo básico para manejarte con BlocksCAD!
+
 # Actividad propuesta: Spinner
 
 ## 
@@ -218,24 +248,52 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 ::::::::::::::
 ## Posible solución
 
-
+<img src="./img/spinner_block.png" width="60%">
 
 # BlocksCAD "avanzado"
 
 ## Variables
 
-* Una variable es un contenedor de datos
-* Los datos serán medidas
-* Nos va a permitir parametrizar nuestros objetos
+:::::::::::::: {.columns}
+::: {.column width="20%"}
+
+
+- Una variable es un contenedor de datos
+- Los datos serán medidas
+- Permiten parametrizar objetos
+
+:::
+::: {.column width="70%"}
+<img src="./img/cuboparam_bs.gif" width="80%">
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+:::
+::::::::::::::
+
 
 ## Operaciones matemáticas
 
-* vamos a poder realizar operaciones matemáticas con las medidas y los valores que contengan las variables
+* Operaciones matemáticas con las medidas y los valores de las variables
+
+<img src="./img/cuboparam2_bs.gif" width="70%">
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
 
 ## Bucles o repeticiones
 
-* permite repetir un conjunto de bloques un número determinado de veces
-* el número de veces se controla con una variable a la que llamaremos contador
+
+:::::::::::::: {.columns}
+::: {.column width="20%"}
+
+
+* Repetición de un conjunto de bloques 
+* El número de repticiones se controla con una variable a la que llamaremos contador
+
+:::
+::: {.column width="70%"}
+<img src="./img/cuborepe_bs.gif" width="80%">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+:::
+::::::::::::::
 
 ## Funciones
 
