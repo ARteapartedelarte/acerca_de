@@ -407,12 +407,12 @@ Modela el objeto de la derecha con el número de lados como parámetro:
 
   Como una imagen vale más que mil palabras:
 
-  <img src="/home/hp/mi_git/mat3d/acerca_de/img/hex_cuad.png" width="50%">
+  <img src="./img/hex_cuad.png" width="50%">
 
 :::
 ::: {.column width="40%"}
 
-<img src="/home/hp/mi_git/mat3d/acerca_de/img/estpar.png" width="60%">
+<img src="./img/estpar.png" width="60%">
 
 [https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
 
