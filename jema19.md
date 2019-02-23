@@ -31,16 +31,12 @@ date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-licen
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-* Origen: Exploración de las posibilidades matemáticas en la impresión y modelado 3D.  
-
-
-::: incremental
+* Origen: **Exploración** de las posibilidades matemáticas en la **impresión y modelado 3D**.  
 
 *  **BlocksCAD** es un programa para modelar objetos en 3D basado en **bloques**
 * Desarrolla **el pensamiento computacional** y la **capacidad espacial**, 
 * Permite trabajar **contenidos matemáticos**, sobre todo de geometría, aunque no exclusivamente
 
-:::
 :::
 ::: {.column width="40%"}
 <img src="./img/sponge.png" width="800px">
@@ -59,7 +55,7 @@ date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-licen
 
 ## Documentación
 
-Toda la documentación del proyecto se encuentra liberada en [Github](https://github.com/mat3d):
+Toda la **documentación** del proyecto se encuentra liberada en [Github](https://github.com/mat3d):
 
 :::::::::::::: {.columns}
 
