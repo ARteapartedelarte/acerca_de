@@ -43,6 +43,8 @@ date: 23/02/2019<br><img src="img/attribution-share-alike-creative-commons-licen
 
 [https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
 
+[Esponja de Menger con BlocksCAD](https://www.blockscad3d.com/community/projects/264994)
+
 :::
 ::::::::::::::
 
@@ -61,9 +63,9 @@ Toda la **documentación** del proyecto se encuentra liberada en [Github](https:
 
 ::: {.column width="45%"}
 
-*  [acerca de](https://github.com/mat3d/acerca_de): Información del proyecto, presentaciones, enlaces a recursos, ...
-*  [actividades3d](https://github.com/mat3d/actividades3d): Wiki con actividades de modelado
-*  [mat3d.github.io](https://github.com/mat3d/mat3d.github.io): El código fuente de la [página web](http://mat3d.github.io)
+*  [acerca de](https://github.com/mat3d/acerca_de): **Información del proyecto**, presentaciones, enlaces a recursos, ...
+*  [actividades3d](https://github.com/mat3d/actividades3d): Wiki con **actividades** de modelado
+*  [mat3d.github.io](https://github.com/mat3d/mat3d.github.io): El **código fuente** de la [página web](http://mat3d.github.io)
 
 :::
 
@@ -87,7 +89,7 @@ Si quieres colaborar, puedes ponerte en contacto con alguien del proyecto
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-* Usando la web de BlocksCAD: [https://www.blockscad3d.com ](https://www.blockscad3d.com/)
+* Usando la **web de BlocksCAD**: [https://www.blockscad3d.com ](https://www.blockscad3d.com/)
 * Opciones:
 	- Probar --> [Create Now](https://www.blockscad3d.com/editor)
 	- Registrarte en su web --> [Register](https://www.blockscad3d.com/account/register/)
@@ -105,13 +107,13 @@ Si quieres colaborar, puedes ponerte en contacto con alguien del proyecto
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
-- Barra de menús/herramientas:
+- **Barra de menús**/herramientas:
 	- Idioma 
 	- Proyectos
 	- Opciones
-- Barra de bloques
-- Área de programa o proyecto: ficheros .xml
-- Área de renderizado
+- Barra de **bloques**
+- **Área de programa o proyecto**: ficheros .xml
+- Área de **renderizado** o visualización de objetos
 
 :::
 ::: {.column width="40%"}
@@ -127,6 +129,8 @@ Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/activida
 
 <img src="./img/cubo_bs.gif" width="80%">
 
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
 
 ## Más formas 3D
 
@@ -134,12 +138,12 @@ Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/activida
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-* Esferas
-* Cilindros:
+* **Esferas**
+* **Cilindros**:
 	- Cilindros
-	- Conos y troncos
-	- Prismas y troncos
-	- Pirámides
+	- **Conos** y troncos
+	- **Prismas** y troncos
+	- **Pirámides**
 
 :::
 ::: {.column width="40%"}
@@ -153,13 +157,19 @@ Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/activida
 
 <img src="./img/esferas_bs.gif" width="80%">
 
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
 ## Cilindros, conos y troncos
 
 <img src="./img/cilindros_bs.gif" width="80%">
 
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
 ## Prismas, pirámides y troncos
 
 <img src="./img/prismas_bs.gif" width="80%">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
 
 ## Transformaciones en el espacio
 
@@ -167,8 +177,8 @@ Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/activida
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-* Traslaciones
-* Rotaciones
+* **Traslaciones**
+* **Rotaciones**
 * Escalas
 * Simetrías
 :::
@@ -183,26 +193,34 @@ Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/activida
 
 <img src="./img/traslaciones_bs.gif" width="80%">
 
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
 
 ## Rotaciones
 
 <img src="./img/rotaciones_bs.gif" width="80%">
 
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
 ## Escalas
 
 <img src="./img/escalas_bs.gif" width="80%">
 
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
 ## Simetrías
 
 <img src="./img/simetrias_bs.gif" width="80%">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
 
 ## Operaciones de conjuntos ($\cup$,$\cap$, $\setminus$)
 
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-* Unión (Pegar objetos)
-* Diferencia ("Hacer agujeros")
+* **Unión** (Pegar objetos)
+* **Diferencia** ("Hacer agujeros")
 * Intersección ("Zonas comunes")
 
 :::
@@ -218,13 +236,19 @@ Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/activida
 
 <img src="./img/union_bs.gif" width="80%">
 
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
 ## Diferencia
 
 <img src="./img/diferencia_bs.gif" width="80%">
 
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
 ## Intersección
 
 <img src="./img/interseccion_bs.gif" width="80%">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
 
 ## ¡Ya sabes lo básico para manejarte con BlocksCAD!
 
@@ -234,7 +258,7 @@ Ya podemos empezar. Seguiremos este [tutorial](https://github.com/mat3d/activida
 :::::::::::::: {.columns}
 ::: {.column width="40%"}
 
-Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 7 mm de altura. Tienes que conseguir algo parecido a esto:
+Modela un **spinner de dos ramas** con tres agujeros para cilindros de **radio 11mm y 7 mm de altura**. Tienes que conseguir algo parecido a esto:
 :::
 ::: {.column width="60%"}
 <img src="./img/spinner.png" width="40%">
@@ -246,6 +270,8 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 
 <img src="./img/spinner_block.png" width="60%">
 
+
+
 # BlocksCAD "avanzado"
 
 ## Variables
@@ -254,7 +280,7 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 ::: {.column width="20%"}
 
 
-- Una variable es un contenedor de datos
+- Una **variable** es un contenedor de datos
 - Los datos serán medidas
 - Permiten parametrizar objetos
 
@@ -268,7 +294,7 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 
 ## Operaciones matemáticas
 
-* Operaciones matemáticas con las medidas y los valores de las variables
+* **Operaciones matemáticas** con las medidas y los valores de las variables
 
 <img src="./img/cuboparam2_bs.gif" width="65%">
 [https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
@@ -279,8 +305,8 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 ::: {.column width="20%"}
 
 
-* Repetición de un conjunto de bloques 
-* El número de repticiones se controla con una variable a la que llamaremos contador
+* **Repetición** de un conjunto de bloques 
+* El **número de repeticiones** se controla con una variable a la que llamaremos contador
 
 :::
 ::: {.column width="70%"}
@@ -297,7 +323,7 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 :::::::::::::: {.columns}
 ::: {.column width="20%"}
 
-* Permiten encapsular un conjunto de bloques en otro
+* Permiten **encapsular un conjunto de bloques** en otro
 
 * al ejecutar la función ejecutaremos internamente los bloques encapsulados
 
@@ -306,7 +332,7 @@ Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 
 
 <img src="./img/ruedasbs.gif" width="80%">
 
-https://www.blockscad3d.com/editor/
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
 :::
 ::::::::::::::
 
@@ -319,7 +345,7 @@ https://www.blockscad3d.com/editor/
 :::::::::::::: {.columns}
 ::: {.column width="60%"}
 
-Realiza un spinner de dimensiones "variables" donde se pueda elegir el tamaño del agujero, el grosor del spinner y el número de ramas 
+Realiza un **spinner de dimensiones "variables"** donde se pueda elegir el **tamaño del agujero, el grosor del spinner y el número de ramas** 
 
 - Crea una función que genere una rama
 
@@ -339,32 +365,92 @@ Realiza un spinner de dimensiones "variables" donde se pueda elegir el tamaño d
 :::
 
 [https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
+[Una posible solución](https://www.blockscad3d.com/community/projects/447547)
+
 ::::::::::::::
 
 
-# Ínspirate: Desafío 1
+# Inspírate: Desafío 1
 
 ## Estrella mudéjar
 
-# Ínspirate: Desafío 2
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+Modela el objeto de la derecha:
+
+- La **estrella mudéjar** es un elemento decorativo ampliamente utilizado desde tiempos remotos por diferentes civilizaciones mediterráneas.
+- En Aragón resulta un ornamento muy característico del mudéjar
+- Aparece al superponer los centros de dos cuadrados idénticos pero uno girado 45º con respecto al otro
+
+:::
+::: {.column width="50%"}
+
+<img src="./img/estrella.png" width="60%">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
+[una solución posible](https://www.blockscad3d.com/community/projects/266387)
+
+:::
+::::::::::::::
+
+## Estrella mudéjar 2
+
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+
+Modela el objeto de la derecha con el número de lados como parámetro:
+
+- La mitad de las puntas las tienen que  **generar un prisma cuadrado** con la diagonal superpuesta sobre la arista (el lado del cuadrado se pide que sea **1/3 de la arista**).
+
+  Como una imagen vale más que mil palabras:
+
+  <img src="/home/hp/mi_git/mat3d/acerca_de/img/hex_cuad.png" width="50%">
+
+:::
+::: {.column width="40%"}
+
+<img src="/home/hp/mi_git/mat3d/acerca_de/img/estpar.png" width="60%">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
+[una solución posible](https://www.blockscad3d.com/community/projects/267149)
+
+:::
+::::::::::::::
+
+# 
+
+# Inspírate: Desafío 2
 
 ## Cono de Apolonio
 
+:::::::::::::: {.columns}
+::: {.column width="60%"}
 
-#  Gracias por vuestra atención
+Modela un cono como el que aparece a la derecha y practica con las secciones de un cono
 
-
-##
-
-<br>
-<br>
-*“Si tú tienes una manzana y yo tengo una manzana, e intercambiamos las manzanas, entonces tanto tú como yo seguiremos teniendo una manzana. Pero si tú tienes una idea y yo tengo una idea, e intercambiamos ideas, entonces ambos tendremos dos ideas. ”*
-
-*George Bertrand Shaw*
-
-
-::: notes
-
-George Bertrand fue un escritor irlandés del s.XIX
+- Al cortar con un plano diferentes puntos del cono obtenemos un serie  de curvas planas llamadas cónicas. Las diferentes curvas reciben los  siguientes nombres:
+  - **círculo**: corte con un plano paralelo a la base del cono
+  - **elipse**: corte oblícuo con respecto a la base  e  inclinación menor a la generatriz del cono (siendo el ángulo de  inclinación el  que forma el plano con el plano normal al eje de  simetría del cono)
+  - **parábola**: corte de un plano paralelo a una generatriz del cono
+  - **hipérbola**: corte oblícuo con respecto a la base  e inclinación mayor a la generatriz del cono
 
 :::
+::: {.column width="40%"}
+
+<img src="./img/cono_apolonio.png" width="60%">
+
+[https://www.blockscad3d.com/editor/](https://www.blockscad3d.com/editor/)
+
+[una solución posible](https://www.blockscad3d.com/community/projects/354345)
+
+:::
+::::::::::::::
+
+
+#  Finalizando ...
+
+## Preguntas y Gracias por vuestra atención
